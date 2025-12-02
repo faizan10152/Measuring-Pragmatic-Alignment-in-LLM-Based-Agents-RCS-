@@ -16,28 +16,6 @@ Source: 1,000 samples of English political discourse from X (Twitter).
 
 Comparison: For each target tweet, we compare an Authentic Human Reply vs. a Fine-Tuned Qwen3 8B Model Reply.
 
-Repository Structure
-
-/repo-root
-│
-├── README.md               # You are here
-├── requirements.txt        # Python dependencies (pandas, nltk, transformers, etc.)
-│
-├── /data                   # Dataset storage
-│   ├── dataset.english.csv             # Original raw dataset
-│   └── processed_dataset_final_eda.csv # Dataset with added EDA features (sentiment, NLI scores)
-│
-├── /notebooks              # Analysis Code
-│   └── deliverable_1_eda.ipynb         # Complete Exploratory Data Analysis (EDA) notebook
-│
-├── /docs                   # Project Deliverables (PDFs)
-│   ├── Annotation_Guidelines.pdf       # The "Socio-Argumentative" Annotation Manual
-│   └── Pragmatic_Alignment_Proposal.pdf # Methodology Proposal
-│
-└── /scripts                # Utility Scripts
-    └── generate_pdf.py     # Script used to generate the guidelines PDF
-
-
 Key Findings (Exploratory Data Analysis)
 
 Our initial analysis (see /notebooks/deliverable_1_eda.ipynb) revealed a critical "Mimicry Gap":
