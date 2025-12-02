@@ -40,27 +40,4 @@ Sarcasm: Sarcastic vs. Serious (The Vibe)
 
 Politeness: Rude vs. Polite (The Safety Filter)
 
-How to Run the Code
 
-Clone this repository.
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-
-Open the notebook:
-
-jupyter notebook notebooks/deliverable_1_eda.ipynb
-
-
-Authors: 
-1. Syed Faizan Ali Haider
-2. Muhammad Ghufran
-3. Vignesh Lyer
-4. Tayyab Tariq
-5. Ankita Khedekar
-
-Supervisors: 
-1. Professor Nils Schwager
-2. Christoph Hau
