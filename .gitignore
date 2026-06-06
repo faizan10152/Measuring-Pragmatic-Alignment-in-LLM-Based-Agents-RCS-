@@ -1,0 +1,24 @@
+# Secrets
+.env
+
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (excluded from version control)
+data/raw/*
+data/processed/*
+
+# Model artifacts
+*.pkl
+*.json
+
+# macOS
+.DS_Store
