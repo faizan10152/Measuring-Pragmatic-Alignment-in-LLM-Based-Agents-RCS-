@@ -3,9 +3,9 @@
 > Can LLMs generate replies that don't just *look* like human discourse — but *function* like it?
 ---
 ## Overview
-This project investigates **pragmatic alignment** in LLM-generated text: the degree to which a language model's output performs the same *communicative function* as an authentic human reply, not just mimicking its surface form.
+**This project investigates **pragmatic alignment** in LLM-generated text: the degree to which a language model's output performs the same *communicative function* as an authentic human reply, not just mimicking its surface form.
 Standard text similarity metrics (BLEU, BERTScore, sentiment) measure *style*. They tell you whether the model sounds human. This project operationalizes a different question: **does the model perform the same social act?**
-The pipeline covers the full research workflow — corpus curation, exploratory analysis, a novel multi-dimensional annotation scheme, and a pragmatics-aware generation loop using LLM + XGBoost critics.
+The pipeline covers the full research workflow — corpus curation, exploratory analysis, a novel multi-dimensional annotation scheme, and a pragmatics-aware generation loop using LLM + XGBoost critics.**
 ---
 ## The Core Problem: The Mimicry Gap
 We analyzed 1,000 English political discourse samples from X (Twitter), comparing **authentic human replies** against **Qwen3 8B fine-tuned replies** for the same target tweet.
